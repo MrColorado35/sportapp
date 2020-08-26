@@ -58,8 +58,15 @@ body, html {
     background: black;
     color: white;
     min-width: 260px;
+    font-weight: bold;
 }
 
+.start-now:hover {
+    background: white;
+    color: black;
+    font-weight: bold;
+    min-width: 260px;
+}
 
 
 /* -------------------------------- Media Queries */
