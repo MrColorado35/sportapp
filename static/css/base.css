@@ -1,12 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
 body, html {
     height: 100%;
     font-family: 'Poppins', sans-serif;
+}
+/* ----------------------------------------Colors */
+.text-darkish {
+    color: #1b1a20;
+}
+
+.bg-darkish {
+    background-color: #1b1a20;
+}
+
+.text-blueish {
+    color: #3680ad;
+}
+
+.bg-blueish {
+    background-color: #3680ad;
 }
 
 /* -------------------------------- General styling   */
 
 .margin-top {
-    margin-top: 120px;
+    margin-top: 17%;
 }
 
 /* from Bulma */
@@ -17,6 +35,12 @@ body, html {
     height: 1.5rem;
     width: 1.5rem;
 }
+
+.font-logo {
+    font-family: 'Russo One', sans-serif;
+}
+
+
 /* -------------------------------- Home page  */
 
 #home-page {
@@ -37,14 +61,9 @@ body, html {
 }
 
 
+
 /* -------------------------------- Media Queries */
 
-/* Slightly larger container on xl screens */
-@media (min-width: 1200px) {
-  .container {
-    max-width: 80%;
-  }
-}
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {

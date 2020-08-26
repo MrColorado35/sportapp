@@ -38,14 +38,14 @@
         <div id="top-nav" class="row bg-none pt-lg-2 d-md-flex">
             <div class="col-12 col-lg-6 my-auto py-1 py-lg-0 text-center text-lg-left">
                 <a href="{% url 'home' %}" class="nav-link main-logo-link">
-                    <h2 class=" text-blue my-0">SportApp</h2>
+                    <h2 class="font-logo text-darkish my-0">SportApp</h2>
                 </a>
             </div>
             <!-- <div class="col-12 col-lg-4 my-auto py-1 py-lg-0"></div>  -->
             <div class="col-12 col-lg-6 my-auto py-1 py-lg-0">
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
                     <li class="list-inline-item dropdown">
-                        <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="text-darkish nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <div class="text-center">
                                 <div><i class="fas fa-user fa-lg"></i></div>
                                 <p class="my-0">My Account</p>
@@ -64,9 +64,30 @@
                             {% endif %}
                         </div>
                     </li>
-                    <li class="list-inline-item ">Choose trainer</li>
-                    <li class="list-inline-item ">Trainings </li>
-                    <li class="list-inline-item ">Meals </li>
+                    <li class="list-inline-item">
+                        <a class="text-darkish nav-link" href="#" id="choose-trainer" aria-haspopup="true" aria-expanded="false">
+                            <div class="text-center">
+                                <div><i class="fas fa-walking fa-lg"></i></div>
+                                <p class="my-0">Choose Trainer</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="list-inline-item ">
+                        <a class="text-darkish nav-link" href="#" id="see-trainings" aria-haspopup="true" aria-expanded="false">
+                            <div class="text-center">
+                                <div><i class="fas fa-snowboarding fa-lg"></i></div>
+                                <p class="my-0">See Trainings</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="list-inline-item ">
+                        <a class="text-darkish nav-link" href="#" id="plan-meals" aria-haspopup="true" aria-expanded="false">
+                            <div class="text-center">
+                                <div><i class="fas fa-pizza-slice fa-lg"></i></div>
+                                <p class="my-0">Plan Meals</p>
+                            </div>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
