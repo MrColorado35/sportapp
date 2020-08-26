@@ -22,7 +22,7 @@ body, html {
 #home-page {
     background-image: url('/media/homepage_1.jpg') ;
     background-size: cover;
-    /* z-index: -1; */
+    z-index: -1;
     height: 100%;
 }
 
