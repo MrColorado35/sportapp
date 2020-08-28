@@ -1,0 +1,1 @@
+web: gunicorn sportapp.wsgi:application
