@@ -28,7 +28,7 @@ SECRET_KEY = '954q$2#8^53$q)nhb0lqhx(*c_sy7cc00!l%lgrp=fli-2#fyu'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['one-sport-app.herokuapp.com/', 'localhost']
+ALLOWED_HOSTS = ['one-sport-app.herokuapp.com', 'localhost']
 
 
 # Application definition
